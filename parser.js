@@ -50,8 +50,8 @@ async function checkPrice(){
 
 function sendEmail(subject, body) {
     const email = {
-        to: 'gisoteges@mail-desk.net',
-        from: 'amazon-price-checker@example.com',
+        to: 'vaxija5379@opude.com',    // any email id
+        from: 'vaxija5379@opude.com',  // verified sender email of sendgrid
         subject: subject,
         text: body,
         html: body
